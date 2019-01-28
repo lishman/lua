@@ -25,7 +25,7 @@ function encode(format, data)
   已完成编码的原数据位置
 
 ## Remarks
-  编码类型:
+编码类型:
   + `nil`
 
   返回所有的编码类型
