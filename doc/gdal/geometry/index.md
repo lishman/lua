@@ -25,7 +25,7 @@
 
 # 基本函数
 |Function|OverView|Parameters|Returns|Suitable|
-|:---|---|---|---|
+|:---|---|---|---|---|
 |[type](type.md)|获取几何对象类型|type(this)|integer|*|
 |[getdims](getdims.md)|获取几何最大维数|this|integer : [0:点, 1:线, 2:面]|*|
 |[getName](type.md)|获取几何对象名称|getName(this)|string|*|
@@ -41,7 +41,7 @@
 
 # 转换
 |Function|OverView|Parameters|Returns|Suitable|
-|:---|---|---|---|
+|:---|---|---|---|---|
 |[reverse](reverse.md)|点序反转|this|geometry|*|
 |[clone](clone.md)|复制对象|this|geometry|*|
 |[boundary](boundary.md)|计算边界|this|geometry|*|
@@ -90,7 +90,7 @@
 几何对象关系描述可参考[`wiki几何关系`](https://en.wikipedia.org/wiki/Spatial_relation)
 
 |Function|OverView|Parameters|Returns|Suitable|
-|:---|---|---|---|
+|:---|---|---|---|---|
 |[equals](equals.md)|是否等价|<li>this<li>geometry/geometryptr|bool|*|
 |[intersects](intersects.md)|是否相交|<li>this<li>geometry/geometryptr|bool|*|
 |[disjoint](disjoint.md)|是否隔离|<li>this<li>geometry/geometryptr|bool|*|
